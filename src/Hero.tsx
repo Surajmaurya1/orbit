@@ -44,7 +44,7 @@ export default function Hero() {
 
       {/* Main Content */}
       <motion.div 
-        className="relative z-10 w-full max-w-[1200px] flex flex-col items-center text-center pt-[140px] md:pt-[290px] px-6 gap-y-6 md:gap-y-[32px]"
+        className="relative z-10 w-full max-w-[1200px] flex flex-col items-center text-center pt-[140px] md:pt-[190px] px-6 gap-y-6 md:gap-y-[32px]"
         variants={containerVariants}
         initial="hidden"
         animate="visible"

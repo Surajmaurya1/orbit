@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 function App() {
   return (
-    <main className="font-geist">
+    <main className="font-outfit">
       <Navbar />
       <Hero />
     </main>
