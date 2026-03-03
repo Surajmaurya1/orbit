@@ -52,7 +52,7 @@ export default function Hero() {
         {/* Heading */}
         <motion.h1 
           variants={itemVariants}
-          className="font-geist font-medium text-[40px] md:text-[80px] leading-[1.05] tracking-[-0.04em] text-neutral-900"
+          className="font-outfit font-medium text-[40px] md:text-[80px] leading-[1.05] tracking-[-0.04em] text-neutral-900"
         >
           Simple{' '}
           <span className="font-instrument italic font-normal text-[50px] md:text-[100px] font-serif pr-1">
@@ -64,7 +64,7 @@ export default function Hero() {
         {/* Description */}
         <motion.p 
           variants={itemVariants}
-          className="font-geist text-[18px] text-[#373a46] opacity-80 max-w-[554px] leading-relaxed"
+          className="font-outfit text-[18px] text-[#373a46] opacity-80 max-w-[554px] leading-relaxed"
         >
           Streamline workflows, organize tasks, and boost productivity with our intuitive platform designed specifically for distributed teams.
         </motion.p>
@@ -78,10 +78,10 @@ export default function Hero() {
             <input 
               type="email" 
               placeholder="Enter your work email..." 
-              className="w-full sm:flex-1 bg-transparent border-none outline-none px-4 sm:px-5 py-3 sm:py-0 text-base font-geist placeholder:text-neutral-400 text-neutral-800 text-center sm:text-left"
+              className="w-full sm:flex-1 bg-transparent border-none outline-none px-4 sm:px-5 py-3 sm:py-0 text-base font-outfit placeholder:text-neutral-400 text-neutral-800 text-center sm:text-left"
             />
             <button 
-              className="w-full sm:w-auto h-[48px] px-6 rounded-[16px] sm:rounded-[32px] bg-gradient-to-b from-[#2a2a2a] to-[#121212] flex items-center justify-center font-geist text-white text-[15px] font-medium transition-transform duration-200 hover:scale-[1.02] active:scale-[0.98] shadow-[inset_-4px_-6px_25px_0px_rgba(201,201,201,0.08),inset_4px_4px_10px_0px_rgba(29,29,29,0.24)]"
+              className="w-full sm:w-auto h-[48px] px-6 rounded-[16px] sm:rounded-[32px] bg-gradient-to-b from-[#2a2a2a] to-[#121212] flex items-center justify-center font-outfit text-white text-[15px] font-medium transition-transform duration-200 hover:scale-[1.02] active:scale-[0.98] shadow-[inset_-4px_-6px_25px_0px_rgba(201,201,201,0.08),inset_4px_4px_10px_0px_rgba(29,29,29,0.24)]"
             >
               Create Free Account
             </button>
@@ -94,7 +94,7 @@ export default function Hero() {
                 <Star key={i} className="w-4 h-4 fill-[#f5a623] text-[#f5a623]" />
               ))}
             </div>
-            <span className="font-geist text-sm text-neutral-500 font-medium">1,020+ Reviews</span>
+            <span className="font-outfit text-sm text-neutral-500 font-medium">1,020+ Reviews</span>
           </div>
         </motion.div>
 

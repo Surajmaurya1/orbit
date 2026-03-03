@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Instrument+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Instrument+Serif:ital@0;1&display=swap');
 
 @theme {
-  --font-geist: "Geist", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
   --font-instrument: "Instrument Serif", serif;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Geist", sans-serif;
+  font-family: "Outfit", sans-serif;
 }
