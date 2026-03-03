@@ -34,7 +34,7 @@ export default function Hero() {
           className="w-full h-full object-cover [transform:scaleY(-1)]"
         >
           <source 
-            src="background.mp4" 
+            src="/background.mp4" 
             type="video/mp4" 
           />
         </video>
